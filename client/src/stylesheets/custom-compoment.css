@@ -1,0 +1,66 @@
+.card {
+    box-shadow: 0 0 1px gray;
+}
+.divider{
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+}
+
+.loader-parent{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border: 2px solid #f3f3f3;
+    border-top: 0px;
+    animation: loader 0.5s linear infinite;
+    
+}
+
+.option{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 1px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.selected-option{
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid var(--primary);
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.result{
+    background: #E67FC4;
+    color: black;
+    padding: 20px;
+
+}
+.animation{
+    height: 200px;
+    width: 200px;
+}
+.timer{
+    background: #12dc8f;
+    display: flex;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+

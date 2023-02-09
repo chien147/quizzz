@@ -1,0 +1,55 @@
+input, select {
+    height: 40px;
+    padding: 5px 20px;
+    border: 2px solid #ccc;
+    width: 100% ;
+}
+
+.ant-form-item{
+    margin-bottom: 5px !important;
+}
+
+.primary-contained-btn{
+    height: 40px;
+    background: var(--primary);
+    color: white;
+    padding: 10px 20px ;
+    text-align: center;
+}
+.primary-contained1-btn{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px ;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 65px;
+    margin-left: 10px;
+}
+.primary-outline-btn{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 30px;
+}
+.primary-outline-btn1{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.primary-outline1-btn{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px ;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
